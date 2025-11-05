@@ -14,9 +14,10 @@
   for = "/*"
   [headers.values]
     # ✅ سياسة أمان متوازنة: قوية لكنها تسمح بالمصادر الضرورية للموقع
-    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; media-src 'self' https://www.w3schools.com; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://unpkg.com https://cdn.tailwindcss.com; style-src 'self' https://fonts.googleapis.com https://unpkg.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://unpkg.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; media-src 'self' https://www.w3schools.com; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://unpkg.com https://cdn.tailwindcss.com; style-src 'self' https://fonts.googleapis.com https://unpkg.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://api.web3forms.com; form-action 'self' https://api.web3forms.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; upgrade-insecure-requests;"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     # 🔒 يمكنك تفعيل HSTS لاحقًا بعد التأكد من أن HTTPS يعمل دون مشاكل
     # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
