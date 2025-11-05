@@ -9,3 +9,27 @@
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
+/*
+# ✅ هذا هو التعديل الجديد والأقوى
+    # لقد حذفنا 'unsafe-inline' من script-src و style-src
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com;"
+    
+    # باقي الهيدرز الأمنية المهمة
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # تذكر أن تبقي هذا الهيدر (HSTS) كتعليق (مسبوقاً بـ #)
+    # حتى تتأكد 100% أن كل شيء يعمل
+    # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"  [[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
