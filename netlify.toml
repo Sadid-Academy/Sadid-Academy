@@ -6,8 +6,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    # ✅ سياسة أمان المحتوى المحدثة (مع السماح بالمصادر الجديدة)
-    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://cdn.tailwindcss.com https://unpkg.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://unpkg.com 'unsafe-inline'; media-src 'self' https://www.w3schools.com; connect-src 'self' https://cdn.jsdelivr.net https://ingesteer.services-prod.nsvcs.net https://api.web3forms.com;"
+    # ✅ سياسة أمان المحتوى المحدثة (مع إضافة الخطوط)
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://cdn.tailwindcss.com https://unpkg.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://unpkg.com 'unsafe-inline'; media-src 'self' https://www.w3schools.com; connect-src 'self' https://cdn.jsdelivr.net https://ingesteer.services-prod.nsvcs.net https://api.web3forms.com; font-src 'self' https://fonts.gstatic.com;"
     
     # باقي الهيدرز الأمنية المهمة
     X-Frame-Options = "DENY"
@@ -18,7 +18,6 @@
     # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
 
 # القاعدة الثانية: هيدرز مخصصة لملف sitemap.xml
-# (هذه كانت موجودة لديك وهي صحيحة)
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
@@ -26,10 +25,8 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 # القاعدة الثالثة: هيدرز مخصصة لملف robots.txt
-# (هذه كانت موجودة لديك وهي صحيحة)
 [[headers]]
   for = "/robots.txt"
   [headers.values]
     Content-Type = "text/plain; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
-
