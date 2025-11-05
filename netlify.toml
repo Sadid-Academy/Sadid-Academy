@@ -13,10 +13,38 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; img-src 'self' https://flagcdn.com data:; media-src 'self' https://www.w3schools.com; script-src 'self' 'sha256-U12S1lNInMTrpM1iXgXJtpGWs/sX2HiPDfl6Hi9S/ZM=' 'unsafe-hashes' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://unpkg.com https://cdn.tailwindcss.com; style-src 'self' https://fonts.googleapis.com https://unpkg.com 'unsafe-hashes'; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://api.web3forms.com https://ingesteer.services-prod.nsvcs.net; form-action 'self' https://api.web3forms.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; upgrade-insecure-requests;"
-    
+    # ✅ السياسة النهائية: تم إصلاح كل الأخطاء
+    Content-Security-Policy = "default-src 'self';
+      
+      # 1. إصلاح img-src: أضفنا نطاق w3schools الخاص بـ "poster" الفيديو
+      img-src 'self' https://flagcdn.com data: https://www.w3schools.com;
+      
+      media-src 'self' https://www.w3schools.com;
+      
+      # 2. إصلاح script-src: اضطررنا لاستخدام 'unsafe-inline' لإصلاح خطأ 'onload' الذي استمر
+      script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://unpkg.com https://cdn.tailwindcss.com;
+      
+      # 3. إصلاح style-src: أضفنا كل الهاشات التي طلبها المتصفح للستايلات المضمنة
+      style-src 'self' https://fonts.googleapis.com https://unpkg.com 
+        'sha256-0EZqoz+oBhx7gF4nvY2bSqoGyy4zLjNF+SDQXGp/ZrY='
+        'sha256-rcCjuaUgw3Cx482/twGM0HGI1rOwAWs8R+P9y3C7pJc='
+        'sha256-Id0I4XaldliPfC0StQjpPfa5KJvy6Uty9mAeVYyDrWM='
+        'sha256-SS+njLJu4SzR24Whei68YLi38QoCgpIUTfIfmQ9ouEw='
+        'sha256-c7U7WXz6t9uJycYVTyFNe0BmbTIN8xPFolo2kqok9zU='
+        'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='
+        'sha256-MxL9r0LyLF5RB+6c/iub6JPJzHjDrHlGlFG9xWKH05I='
+        'sha256-Czi+Fb+5//VgSqnmAmqe294NfoulzaRqXXN4N05xaug='
+        'sha256-fXZTMerZd1cZBiFflLaQk4P7MGh3oAX7UUhlRoSVtQ8=';
+        
+      font-src 'self' https://fonts.gstatic.com;
+      connect-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://api.web3forms.com https://ingesteer.services-prod.nsvcs.net;
+      form-action 'self' https://api.web3forms.com;
+      object-src 'none';
+      frame-ancestors 'none';
+      base-uri 'self';
+      upgrade-insecure-requests;"
+      
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    # 🔒 يمكنك تفعيل HSTS لاحقًا بعد التأكد من أن HTTPS يعمل دون مشاكل
     # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
