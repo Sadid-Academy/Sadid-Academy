@@ -1,7 +1,7 @@
 /* =================== i18n =================== */
 const translations = {
     ar: {
-      "site-title": "أكاديمية الذِّكر",
+      "site-title": "أكاديمية سديد",
       "site-tag": "منارة للعلوم الشرعية",
       "nav-home": "الرئيسية",
       "nav-edu": "التعليم",
@@ -11,14 +11,14 @@ const translations = {
       "nav-about": " من نحن؟ ",
       "nav-journey": "رحلة الطالب",
       "hero-academy": "أكاديمية",
-      "hero-name": "الذِّكر",
+      "hero-name": "سديد",
       "hero-static": "تعلم",
       "hero-cta": "ابدأ رحلتك",
       "hero-watch": "عن الأكاديمية",
       "hero-start": "جرّب مجانًا",
       "about-title": "من نحن؟",
       "about-desc":
-        "فى أكاديمية الذِّكر، نؤمن أن تعلم القرآن الكريم واللغة العربية ليس مجرد دراسة… بل هو رحلة حياة ورسالة. لذلك صممنا منصتنا خصيصًا لغير الناطقين بالعربية، لنمد لهم الجسر نحو الفهم العميق لكلام الله ولغة القرآن، بأسلوب يجمع بين منهجية التعليم الأكاديمي وروح الإلهام.",
+        "فى أكاديمية سديد، نؤمن أن تعلم القرآن الكريم واللغة العربية ليس مجرد دراسة… بل هو رحلة حياة ورسالة. لذلك صممنا منصتنا خصيصًا لغير الناطقين بالعربية، لنمد لهم الجسر نحو الفهم العميق لكلام الله ولغة القرآن، بأسلوب يجمع بين منهجية التعليم الأكاديمي وروح الإلهام.",
       "about-point-1":
         "منهج تدريجي يبدأ معك من الأساسيات حتى الإتقان، مهما كان مستواك.",
       "about-point-2":
@@ -47,12 +47,12 @@ const translations = {
         "نحن هنا لمساعدتك. يمكنك التواصل معنا مباشرة عبر القنوات التالية، وسيسعد فريقنا بالرد على استفساراتك..",
       "contact-title": "تواصل معنا",
       "contact-btn": "إرسال",
-      "footer": "أكاديمية الذِّكر",
+      "footer": "أكاديمية سديد",
       "name-placeholder": "اسمك",
       "search-placeholder": "رسالتك...",
       "email-placeholder": "أدخل بريدك الإلكتروني",
       "whatsapp-msg":
-        "السلام عليكم ورحمة الله، أود الاستفسار عن برامج أكاديمية الذِّكر.",
+        "السلام عليكم ورحمة الله، أود الاستفسار عن برامج أكاديمية سديد.",
       "wa-template": "مرحباً، أرغب في الالتحاق بدورة [COURSE].",
       "cta-register": "سجل الآن",
       "giftText": "أول محاضرة تجريبية ومجانية 100% ...ابدأ رحلتك الآن!",
@@ -74,7 +74,7 @@ const translations = {
     },
   
     en: {
-      "site-title": "Al-Zikr Academy",
+      "site-title": "Sadid Academy",
       "site-tag": "A beacon of Islamic knowledge",
       "nav-home": "Home",
       "nav-edu": "Education",
@@ -84,13 +84,13 @@ const translations = {
       "nav-about": "About Us",
       "nav-journey": "Student Journey",
       "hero-academy": "Academy",
-      "hero-name": "Al-Zikr",
+      "hero-name": "Sadid",
       "hero-static": "Learn",
       "hero-cta": "Start Your Journey",
       "hero-watch": "About the Academy",
       "about-title": "About Us",
       "about-desc":
-        "At Al-Zikr Academy, we believe that learning the Holy Qur'an and the Arabic language is not just a study… it is a lifelong journey and a mission. We have designed our platform specifically for non-Arabic speakers, to build a bridge towards a deep understanding of Allah’s words and the language of the Qur'an, combining academic methodology with a spirit of inspiration.",
+        "At Sadid Academy, we believe that learning the Holy Qur'an and the Arabic language is not just a study… it is a lifelong journey and a mission. We have designed our platform specifically for non-Arabic speakers, to build a bridge towards a deep understanding of Allah’s words and the language of the Qur'an, combining academic methodology with a spirit of inspiration.",
       "about-point-1":
         "A progressive curriculum that takes you from the basics to mastery, regardless of your level.",
       "about-point-2":
@@ -120,12 +120,12 @@ const translations = {
         "We are here to help you. You can reach out to us directly through the following channels, and our team will be happy to respond to your inquiries.",
       "contact-title": "Contact Us",
       "contact-btn": "Send",
-      "footer": "Al-Zikr Academy",
+      "footer": "Sadid Academy",
       "name-placeholder": "Your name",
       "search-placeholder": "Your message...",
       "email-placeholder": "Enter your email address",
       "whatsapp-msg":
-        "Peace be upon you. I would like to inquire about Al-Zikr Academy programs.",
+        "Peace be upon you. I would like to inquire about Sadid Academy programs.",
       "wa-template": "Hello, I would like to enroll in the [COURSE] course.",
       "cta-register": "Register Now",
       "giftText": "First trial lecture 100% free... Start your journey now!",
@@ -146,7 +146,7 @@ const translations = {
     },
   
     es: {
-      "site-title": "Academia Al-Zikr",
+      "site-title": "Academia Sadid",
       "site-tag": "Un faro de conocimiento islámico",
       "nav-home": "Inicio",
       "nav-edu": "Educación",
@@ -156,13 +156,13 @@ const translations = {
       "nav-about": "Sobre Nosotros",
       "nav-journey": "Viaje del Estudiante",
       "hero-academy": "Academia",
-      "hero-name": "Al-Zikr",
+      "hero-name": "Sadid",
       "hero-static": "Aprender",
       "hero-cta": "Comienza tu viaje",
       "hero-watch": "Sobre la academia",
       "about-title": "Sobre Nosotros",
       "about-desc":
-        "En la Academia Al-Zikr creemos que aprender el Sagrado Corán y el idioma árabe no es solo un estudio… es un viaje de por vida y una misión. Hemos diseñado nuestra plataforma específicamente para personas que no hablan árabe, para tender un puente hacia una comprensión profunda de las palabras de Alá y el idioma del Corán, combinando metodología académica con un espíritu inspirador.",
+        "En la Academia Sadid creemos que aprender el Sagrado Corán y el idioma árabe no es solo un estudio… es un viaje de por vida y una misión. Hemos diseñado nuestra plataforma específicamente para personas que no hablan árabe, para tender un puente hacia una comprensión profunda de las palabras de Alá y el idioma del Corán, combinando metodología académica con un espíritu inspirador.",
       "about-point-1":
         "Un plan de estudios progresivo que te lleva desde lo básico hasta el dominio, sin importar tu nivel.",
       "about-point-2":
@@ -192,12 +192,12 @@ const translations = {
         "Estamos aquí para ayudarte. Puedes comunicarte con nosotros directamente a través de los siguientes canales, y nuestro equipo estará encantado de responder a tus consultas.",
       "contact-title": "Contáctanos",
       "contact-btn": "Enviar",
-      "footer": "Academia Al-Zikr",
+      "footer": "Academia Sadid",
       "name-placeholder": "Tu nombre",
       "search-placeholder": "Tu mensaje...",
       "email-placeholder": "Introduce tu correo electrónico",
       "whatsapp-msg":
-        "La paz sea contigo. Me gustaría preguntar sobre los programas de la Academia Al-Zikr.",
+        "La paz sea contigo. Me gustaría preguntar sobre los programas de la Academia Sadid.",
       "wa-template": "Hola, me gustaría inscribirme en el curso [COURSE].",
       "cta-register": "Regístrate ahora",
       "giftText": "¡Primera clase de prueba 100% gratuita... Comienza tu viaje ahora!",
@@ -218,7 +218,7 @@ const translations = {
     },
   
     fr: {
-      "site-title": "Académie Al-Zikr",
+      "site-title": "Académie Sadid",
       "site-tag": "Un phare du savoir islamique",
       "nav-home": "Accueil",
       "nav-edu": "Éducation",
@@ -228,13 +228,13 @@ const translations = {
       "nav-about": "À propos",
       "nav-journey": "Parcours de l'Étudiant",
       "hero-academy": "Académie",
-      "hero-name": "Al-Zikr",
+      "hero-name": "Sadid",
       "hero-static": "Apprendre",
       "hero-cta": "Commencez votre voyage",
       "hero-watch": "À propos de l'académie",
       "about-title": "À propos",
       "about-desc":
-        "À l'Académie Al-Zikr, nous croyons que l'apprentissage du Saint Coran et de la langue arabe n'est pas seulement une étude… c'est un voyage de toute une vie et une mission. Nous avons conçu notre plateforme spécialement pour les non-arabophones, afin de leur offrir un pont vers une compréhension profonde des paroles d’Allah et de la langue du Coran, en alliant méthodologie académique et inspiration.",
+        "À l'Académie Sadid, nous croyons que l'apprentissage du Saint Coran et de la langue arabe n'est pas seulement une étude… c'est un voyage de toute une vie et une mission. Nous avons conçu notre plateforme spécialement pour les non-arabophones, afin de leur offrir un pont vers une compréhension profonde des paroles d’Allah et de la langue du Coran, en alliant méthodologie académique et inspiration.",
       "about-point-1":
         "Un programme progressif qui vous emmène des bases à la maîtrise, quel que soit votre niveau.",
       "about-point-2":
@@ -264,12 +264,12 @@ const translations = {
         "Nous sommes là pour vous aider. Vous pouvez nous contacter directement via les canaux suivants, et notre équipe sera ravie de répondre à vos questions.",
       "contact-title": "Contactez-nous",
       "contact-btn": "Envoyer",
-      "footer": "Académie Al-Zikr",
+      "footer": "Académie Sadid",
       "name-placeholder": "Ton nom",
       "search-placeholder": "Votre message...",
       "email-placeholder": "Entrez votre adresse e-mail",
       "whatsapp-msg":
-        "Que la paix soit sur vous. Je souhaite me renseigner sur les programmes de l'Académie Al-Zikr.",
+        "Que la paix soit sur vous. Je souhaite me renseigner sur les programmes de l'Académie Sadid.",
       "wa-template": "Bonjour, je souhaite m'scrire au cours [COURSE].",
       "cta-register": "Inscrivez-vous",
       "giftText": "Première conférence d'essai 100% gratuite... Commencez votre voyage maintenant !",
@@ -290,7 +290,7 @@ const translations = {
     },
   
     it: {
-      "site-title": "Accademia Al-Zikr",
+      "site-title": "Accademia Sadid",
       "site-tag": "Un faro di conoscenza islamica",
       "nav-home": "Home",
       "nav-edu": "Educazione",
@@ -300,13 +300,13 @@ const translations = {
       "nav-about": "Chi siamo",
       "nav-journey": "Viaggio dello Studente",
       "hero-academy": "Accademia",
-      "hero-name": "Al-Zikr",
+      "hero-name": "Sadid",
       "hero-static": "Imparare",
       "hero-cta": "Inizia il tuo viaggio",
       "hero-watch": "Sull'accademia",
       "about-title": "Chi siamo",
       "about-desc":
-        "All'Accademia Al-Zikr crediamo che imparare il Sacro Corano e la lingua araba non sia solo uno studio… è un viaggio di tutta la vita e una missione. Abbiamo progettato la nostra piattaforma appositamente per chi non parla arabo, per offrire un ponte verso una profonda comprensione delle parole di Allah e della lingua del Corano, unendo metodologia accademica e ispirazione.",
+        "All'Accademia Sadid crediamo che imparare il Sacro Corano e la lingua araba non sia solo uno studio… è un viaggio di tutta la vita e una missione. Abbiamo progettato la nostra piattaforma appositamente per chi non parla arabo, per offrire un ponte verso una profonda comprensione delle parole di Allah e della lingua del Corano, unendo metodologia accademica e ispirazione.",
       "about-point-1":
         "Un programma progressivo che ti porta dalle basi alla padronanza, indipendentemente dal tuo livello.",
       "about-point-2":
@@ -336,12 +336,12 @@ const translations = {
         "Siamo qui per aiutarti. Puoi contattarci direttamente attraverso i seguenti canali e il nostro team sarà felice di rispondere alle tue domande.",
       "contact-title": "Contattaci",
       "contact-btn": "Invia",
-      "footer": "Accademia Al-Zikr",
+      "footer": "Accademia Sadid",
       "name-placeholder": "Il tuo nome",
       "search-placeholder": "Il tuo messaggio...",
       "email-placeholder": "Inserisci il tuo indirizzo email",
       "whatsapp-msg":
-        "La pace sia su di te. Vorrei chiedere informazioni sui programmi dell'Accademia Al-Zikr.",
+        "La pace sia su di te. Vorrei chiedere informazioni sui programmi dell'Accademia Sadid.",
       "wa-template": "Ciao, vorrei iscrivermi al corso [COURSE].",
       "cta-register": "Iscriviti ora",
       "giftText": "Prima lezione di prova 100% gratuita... Inizia subito il tuo viaggio!",
@@ -362,7 +362,7 @@ const translations = {
     },
   
     de: {
-      "site-title": "Al-Zikr Akademie",
+      "site-title": "Sadid Akademie",
       "site-tag": "Ein Leuchtturm islamischen Wissens",
       "nav-home": "Startseite",
       "nav-edu": "Bildung",
@@ -372,13 +372,13 @@ const translations = {
       "nav-about": "Über uns",
       "nav-journey": "Reise des Studenten",
       "hero-academy": "Akademie",
-      "hero-name": "Al-Zikr",
+      "hero-name": "Sadid",
       "hero-static": "Lernen",
       "hero-cta": "Beginne deine Reise",
       "hero-watch": "Über die Akademie",
       "about-title": "Über uns",
       "about-desc":
-        "An der Al-Zikr Akademie glauben wir, dass das Erlernen des Heiligen Korans und der arabischen Sprache nicht nur ein Studium ist… es ist eine lebenslange Reise und eine Mission. Wir haben unsere Plattform speziell für Nicht-Arabischsprachige entwickelt, um eine Brücke zu einem tiefen Verständnis der Worte Allahs und der Sprache des Korans zu bauen, und verbinden dabei akademische Methodik mit Inspiration.",
+        "An der Sadid Akademie glauben wir, dass das Erlernen des Heiligen Korans und der arabischen Sprache nicht nur ein Studium ist… es ist eine lebenslange Reise und eine Mission. Wir haben unsere Plattform speziell für Nicht-Arabischsprachige entwickelt, um eine Brücke zu einem tiefen Verständnis der Worte Allahs und der Sprache des Korans zu bauen, und verbinden dabei akademische Methodik mit Inspiration.",
       "about-point-1":
         "Ein progressiver Lehrplan, der dich von den Grundlagen bis zur Meisterschaft führt, unabhängig von deinem Niveau.",
       "about-point-2":
@@ -408,12 +408,12 @@ const translations = {
         "Wir sind hier, um Ihnen zu helfen. Sie können uns direkt über die folgenden Kanäle erreichen, und unser Team freut sich darauf, Ihre Anfragen zu beantworten.",
       "contact-title": "Kontaktiere uns",
       "contact-btn": "Senden",
-      "footer": "Al-Zikr Akademie",
+      "footer": "Sadid Akademie",
       "name-placeholder": "Dien Name",
       "search-placeholder": "Deine Nachricht...",
       "email-placeholder": "Gib deine E-Mail-Adresse ein",
       "whatsapp-msg":
-        "Friede sei mit dir. Ich möchte mich nach den Programmen der Al-Zikr Akademie erkundigen.",
+        "Friede sei mit dir. Ich möchte mich nach den Programmen der Sadid Akademie erkundigen.",
       "wa-template": "Hallo, ich möchte mich für den Kurs [COURSE] anmelden.",
       "cta-register": "Jetzt registrieren",
       "giftText": "Erste Probevorlesung 100% kostenlos... Beginnen Sie jetzt Ihre Reise!",
@@ -441,25 +441,25 @@ const translations = {
         id: "b1",
         title: "رحلة إلى قلب القرآن... ابدأها اليوم",
         desc: "مع كل آية تحفظها، يزهر في قلبك نور، ويزداد يقينك، وتقترب من المعنى الحقيقي للحياة.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
         longContent:
-          "<p>هناك رحلات تغيّر وجه الحياة، ولكن لا رحلة أعمق ولا أصدق من تلك التي تقودك إلى <strong>قلب القرآن الكريم</strong>. إنه كتاب الله الذي لا تنقضي عجائبه، ولا يشبع منه العلماء، ولا يملّ من تلاوته المؤمنون.</p><p>القرآن ليس مجرد كلمات تتلى، بل هو نبض يسري في روحك، يطمئن قلبك في لحظات الحيرة، ويضيء لك الطريق وسط عتمة الدنيا. كل آية تحمل لك رسالة خاصة، وكل سورة تنسج لك معنى جديدًا للحياة.</p><p>في <em>أكاديمية الذِّكر</em>، نصطحبك خطوة بخطوة، من الحرف الأول إلى أعلى درجات الإتقان. ستتعلم معنا التلاوة الصحيحة، وتتذوق جمال المعاني، وتعيش مع كل درس شعور القرب من الله. دروسنا تفاعلية، ومعلمونا متخصصون، وخططنا مصممة لتناسب وقتك ومستواك، أينما كنت.</p><p>لا تؤجل رحلتك مع القرآن، فكل يوم يمر وأنت بعيد عنه هو يوم ضاع منك من السكينة والنور. اجعل هذا اليوم بداية عهد جديد بينك وبين كلام الله... <strong>وسجّل الآن</strong>، ودع القرآن يغيّر حياتك إلى الأبد.</p>",
+          "<p>هناك رحلات تغيّر وجه الحياة، ولكن لا رحلة أعمق ولا أصدق من تلك التي تقودك إلى <strong>قلب القرآن الكريم</strong>. إنه كتاب الله الذي لا تنقضي عجائبه، ولا يشبع منه العلماء، ولا يملّ من تلاوته المؤمنون.</p><p>القرآن ليس مجرد كلمات تتلى، بل هو نبض يسري في روحك، يطمئن قلبك في لحظات الحيرة، ويضيء لك الطريق وسط عتمة الدنيا. كل آية تحمل لك رسالة خاصة، وكل سورة تنسج لك معنى جديدًا للحياة.</p><p>في <em>أكاديمية سديد</em>، نصطحبك خطوة بخطوة، من الحرف الأول إلى أعلى درجات الإتقان. ستتعلم معنا التلاوة الصحيحة، وتتذوق جمال المعاني، وتعيش مع كل درس شعور القرب من الله. دروسنا تفاعلية، ومعلمونا متخصصون، وخططنا مصممة لتناسب وقتك ومستواك، أينما كنت.</p><p>لا تؤجل رحلتك مع القرآن، فكل يوم يمر وأنت بعيد عنه هو يوم ضاع منك من السكينة والنور. اجعل هذا اليوم بداية عهد جديد بينك وبين كلام الله... <strong>وسجّل الآن</strong>، ودع القرآن يغيّر حياتك إلى الأبد.</p>",
       },
       {
         id: "b2",
         title: "اللغة العربية... مفتاح لفهم كلام الله",
         desc: "حين تتقن لغة القرآن، تنفتح أمامك كنوز المعاني، ويزول الحجاب بينك وبين نور الوحي.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
         longContent:
-          "<p>اللغة العربية ليست مجرد وسيلة تواصل، إنها وعاء الوحي، ولسان القرآن، ومفتاح لفهم كلام الله على وجهه الصحيح. كل حرف فيها له وقع، وكل كلمة تحمل في طياتها دقة المعنى وجمال البيان. عندما تتقن العربية، لن تكتفي بقراءة النصوص، بل ستعيشها، وتدرك العمق الذي لم تكن تراه من قبل. ستتذوق الإعجاز البياني، وتستشعر الجمال الخفي الذي يضيء قلبك ويغذي عقلك. في أكاديمية الذِّكر، نقدم لك منهجًا تدريجيًا يجمع بين وضوح الشرح وجمال الأسلوب، لتصل من الحروف الأولى إلى الطلاقة، ومن القواعد الأساسية إلى الإبداع في التعبير. لا تدع لغة القرآن تبقى غريبة عنك، اقترب منها، وامنح نفسك فرصة الفهم الحقيقي لكلام الله. سجّل اليوم وابدأ رحلتك.</p>",
+          "<p>اللغة العربية ليست مجرد وسيلة تواصل، إنها وعاء الوحي، ولسان القرآن، ومفتاح لفهم كلام الله على وجهه الصحيح. كل حرف فيها له وقع، وكل كلمة تحمل في طياتها دقة المعنى وجمال البيان. عندما تتقن العربية، لن تكتفي بقراءة النصوص، بل ستعيشها، وتدرك العمق الذي لم تكن تراه من قبل. ستتذوق الإعجاز البياني، وتستشعر الجمال الخفي الذي يضيء قلبك ويغذي عقلك. في أكاديمية سديد، نقدم لك منهجًا تدريجيًا يجمع بين وضوح الشرح وجمال الأسلوب، لتصل من الحروف الأولى إلى الطلاقة، ومن القواعد الأساسية إلى الإبداع في التعبير. لا تدع لغة القرآن تبقى غريبة عنك، اقترب منها، وامنح نفسك فرصة الفهم الحقيقي لكلام الله. سجّل اليوم وابدأ رحلتك.</p>",
       },
       {
         id: "b3",
         title: "العلم الشرعي... نور وهداية في زمن الفتن",
         desc: "بالعلم تُبصر الحق من الباطل، وتعيش حياة مطمئنة ثابتة على الطريق المستقيم.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
         longContent:
-          "<p>في زمن كثرت فيه الفتن وتداخلت الأصوات، لا شيء يحمي قلبك ويثبت خطاك مثل <strong>العلم الشرعي</strong>. إنه النور الذي يكشف لك طريق الحق، والبوصلة التي توجه حياتك نحو مرضاة الله. العلم ليس مجرد حفظ مسائل، بل هو فهم عميق، وبصيرة نافذة، وحكمة في التعامل مع كل موقف. هو زادك في رحلة الحياة، وسلاحك أمام الشبهات والشهوات. في <em>أكاديمية الذِّكر</em>, نوفر لك دراسة منهجية للفقه والعقيدة والسيرة، بأسلوب ميسر يناسب كل مستوى، لتكون على بصيرة بدينك، وتعيش مطمئنًا مهما تغيرت الدنيا من حولك. ابدأ اليوم، ولا تترك قلبك بلا نور، ولا حياتك بلا هداية... <strong>سجّل معنا الآن</strong>، واجعل العلم رفيق دربك.</p>",
+          "<p>في زمن كثرت فيه الفتن وتداخلت الأصوات، لا شيء يحمي قلبك ويثبت خطاك مثل <strong>العلم الشرعي</strong>. إنه النور الذي يكشف لك طريق الحق، والبوصلة التي توجه حياتك نحو مرضاة الله. العلم ليس مجرد حفظ مسائل، بل هو فهم عميق، وبصيرة نافذة، وحكمة في التعامل مع كل موقف. هو زادك في رحلة الحياة، وسلاحك أمام الشبهات والشهوات. في <em>أكاديمية سديد</em>, نوفر لك دراسة منهجية للفقه والعقيدة والسيرة، بأسلوب ميسر يناسب كل مستوى، لتكون على بصيرة بدينك، وتعيش مطمئنًا مهما تغيرت الدنيا من حولك. ابدأ اليوم، ولا تترك قلبك بلا نور، ولا حياتك بلا هداية... <strong>سجّل معنا الآن</strong>، واجعل العلم رفيق دربك.</p>",
       },
     ],
     en: [
@@ -467,25 +467,25 @@ const translations = {
         id: "b1",
         title: "A Journey to the Heart of the Qur’an... Start Today",
         desc: "With every verse you memorize, light blossoms in your heart, your faith deepens, and you draw closer to the true meaning of life.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
         longContent:
-          "<p>There are journeys that change the course of life, but none is deeper or truer than the one leading you to the <strong>heart of the Holy Qur’an</strong>. It is the Book of Allah, whose wonders never cease, whose scholars never tire, and whose recitation never wearies the believers.</p><p>The Qur’an is not just words to be recited; it is a pulse flowing through your soul, calming your heart in moments of confusion, and lighting your path in the darkness of this world. Every verse carries a personal message for you, and every chapter weaves a new meaning for life.</p><p>At <em>Al-Zikr Academy</em>, we guide you step by step, from the first letter to the highest level of mastery. You will learn the correct recitation, taste the beauty of its meanings, and feel the closeness to Allah with every lesson. Our lessons are interactive, our teachers are experts, and our plans are tailored to your time and level, wherever you are.</p><p>Do not delay your journey with the Qur’an, for every day you spend away from it is a day lost from peace and light. Make today the beginning of a new covenant between you and the words of Allah... <strong>Register now</strong> and let the Qur’an transform your life forever.</p>",
+          "<p>There are journeys that change the course of life, but none is deeper or truer than the one leading you to the <strong>heart of the Holy Qur’an</strong>. It is the Book of Allah, whose wonders never cease, whose scholars never tire, and whose recitation never wearies the believers.</p><p>The Qur’an is not just words to be recited; it is a pulse flowing through your soul, calming your heart in moments of confusion, and lighting your path in the darkness of this world. Every verse carries a personal message for you, and every chapter weaves a new meaning for life.</p><p>At <em>Sadid Academy</em>, we guide you step by step, from the first letter to the highest level of mastery. You will learn the correct recitation, taste the beauty of its meanings, and feel the closeness to Allah with every lesson. Our lessons are interactive, our teachers are experts, and our plans are tailored to your time and level, wherever you are.</p><p>Do not delay your journey with the Qur’an, for every day you spend away from it is a day lost from peace and light. Make today the beginning of a new covenant between you and the words of Allah... <strong>Register now</strong> and let the Qur’an transform your life forever.</p>",
       },
       {
         id: "b2",
         title: "The Arabic Language... The Key to Understanding God’s Words",
         desc: "When you master the language of the Qur’an, the treasures of meaning open before you, and the veil between you and the light of revelation is lifted.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
         longContent:
-          "<p>The Arabic language is not just a means of communication; it is the vessel of revelation, the tongue of the Qur’an, and the key to truly understanding the words of Allah. Every letter has its resonance, and every word carries precision of meaning and beauty of expression.</p><p>When you master Arabic, you will not merely read the texts—you will live them, realizing depths you never saw before. You will taste its rhetorical miracles and feel the hidden beauty that lights your heart and nourishes your mind.</p><p>At <em>Al-Zikr Academy</em>, we offer a gradual curriculum that combines clarity of explanation with beauty of style, taking you from your first letters to fluency, from basic grammar to expressive eloquence.</p><p>Do not let the language of the Qur’an remain distant from you. Come closer, and give yourself the chance to truly understand God’s words... <strong>Enroll today</strong> and begin your journey.</p>",
+          "<p>The Arabic language is not just a means of communication; it is the vessel of revelation, the tongue of the Qur’an, and the key to truly understanding the words of Allah. Every letter has its resonance, and every word carries precision of meaning and beauty of expression.</p><p>When you master Arabic, you will not merely read the texts—you will live them, realizing depths you never saw before. You will taste its rhetorical miracles and feel the hidden beauty that lights your heart and nourishes your mind.</p><p>At <em>Sadid Academy</em>, we offer a gradual curriculum that combines clarity of explanation with beauty of style, taking you from your first letters to fluency, from basic grammar to expressive eloquence.</p><p>Do not let the language of the Qur’an remain distant from you. Come closer, and give yourself the chance to truly understand God’s words... <strong>Enroll today</strong> and begin your journey.</p>",
       },
       {
         id: "b3",
         title: "Sacred Knowledge... Light and Guidance in Times of Trial",
         desc: "Through knowledge, you see truth from falsehood, and you live a life of peace and steadfastness on the straight path.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
         longContent:
-          "<p>In times when trials are many and voices are countless, nothing protects your heart and steadies your steps like <strong>sacred knowledge</strong>. It is the light that reveals the path of truth, the compass that directs your life towards Allah’s pleasure.</p><p>Knowledge is not just memorizing issues, but deep understanding, sharp insight, and wisdom in dealing with every situation. It is your provision for life’s journey, and your shield against doubts and temptations.</p><p>At <em>Al-Zikr Academy</em>, we offer a structured study of fiqh, aqeedah, and seerah, in an accessible style for all levels, so you can be clear-sighted in your religion and live with peace no matter how the world changes around you.</p><p>Start today. Do not let your heart be without light or your life without guidance... <strong>Join us now</strong> and let knowledge be your lifelong companion.</p>",
+          "<p>In times when trials are many and voices are countless, nothing protects your heart and steadies your steps like <strong>sacred knowledge</strong>. It is the light that reveals the path of truth, the compass that directs your life towards Allah’s pleasure.</p><p>Knowledge is not just memorizing issues, but deep understanding, sharp insight, and wisdom in dealing with every situation. It is your provision for life’s journey, and your shield against doubts and temptations.</p><p>At <em>Sadid Academy</em>, we offer a structured study of fiqh, aqeedah, and seerah, in an accessible style for all levels, so you can be clear-sighted in your religion and live with peace no matter how the world changes around you.</p><p>Start today. Do not let your heart be without light or your life without guidance... <strong>Join us now</strong> and let knowledge be your lifelong companion.</p>",
       },
     ],
     es: [
@@ -493,22 +493,22 @@ const translations = {
         id: "b1",
         title: "Un viaje al corazón del Corán... Empieza hoy",
         desc: "Con cada versículo memorizado, una luz crece en tu corazón, tu fe se fortalece y te acercas al verdadero sentido de la vida.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
-        longContent: `<p>Hay viajes que cambian el rumbo de una vida, pero ninguno es más profundo ni más verdadero que aquel que te lleva al <strong>corazón del Sagrado Corán</strong>. Es el Libro de Allah, cuyas maravillas nunca se agotan, que los sabios estudian sin cesar y cuya recitación nunca cansa a los creyentes.</p><p>El Corán no es solo palabras para recitar; es un aliento que penetra tu alma, calma tu corazón en los momentos de duda e ilumina tu camino en la oscuridad de este mundo. Cada versículo tiene un mensaje personal para ti, y cada sura teje un nuevo sentido para tu vida.</p><p>En <em>la Academia Al-Zikr</em>, te acompañamos paso a paso, desde la primera letra hasta la maestría completa. Aprenderás la recitación correcta, disfrutarás de la belleza de sus significados y sentirás la cercanía de Allah en cada lección.</p><p>No retrases tu viaje con el Corán, porque cada día lejos de él es un día perdido de paz y luz. Haz que hoy sea el inicio de un nuevo pacto con las palabras de Allah... <strong>Inscríbete ahora</strong> y deja que el Corán transforme tu vida para siempre.</p>`,
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
+        longContent: `<p>Hay viajes que cambian el rumbo de una vida, pero ninguno es más profundo ni más verdadero que aquel que te lleva al <strong>corazón del Sagrado Corán</strong>. Es el Libro de Allah, cuyas maravillas nunca se agotan, que los sabios estudian sin cesar y cuya recitación nunca cansa a los creyentes.</p><p>El Corán no es solo palabras para recitar; es un aliento que penetra tu alma, calma tu corazón en los momentos de duda e ilumina tu camino en la oscuridad de este mundo. Cada versículo tiene un mensaje personal para ti, y cada sura teje un nuevo sentido para tu vida.</p><p>En <em>la Academia Sadid</em>, te acompañamos paso a paso, desde la primera letra hasta la maestría completa. Aprenderás la recitación correcta, disfrutarás de la belleza de sus significados y sentirás la cercanía de Allah en cada lección.</p><p>No retrases tu viaje con el Corán, porque cada día lejos de él es un día perdido de paz y luz. Haz que hoy sea el inicio de un nuevo pacto con las palabras de Allah... <strong>Inscríbete ahora</strong> y deja que el Corán transforme tu vida para siempre.</p>`,
       },
       {
         id: "b2",
         title: "El idioma árabe... La llave para entender la Palabra de Dios",
         desc: "Al dominar la lengua del Corán, los tesoros del significado se abren ante ti y la luz de la revelación se revela.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
-        longContent: `<p>El árabe no es solo un medio de comunicación; es el recipiente de la revelación, la lengua del Corán y la llave para comprender verdaderamente la Palabra de Allah. Cada letra tiene su resonancia y cada palabra transmite precisión de significado y belleza de expresión.</p><p>Al dominar el árabe, no solo leerás los textos — los vivirás, descubriendo profundidades que antes no percibías. Disfrutarás de sus milagros retóricos y sentirás la belleza oculta que ilumina tu corazón y alimenta tu espíritu.</p><p>En <em>la Academia Al-Zikr</em>, ofrecemos un programa progresivo que combina claridad en las explicaciones y belleza en el estilo, guiándote desde tus primeras letras hasta la elocuencia completa.</p><p>No dejes que la lengua del Corán te siga siendo ajena. Acércate y date la oportunidad de comprender realmente las palabras de Dios... <strong>Inscríbete hoy</strong> y comienza tu viaje.</p>`,
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
+        longContent: `<p>El árabe no es solo un medio de comunicación; es el recipiente de la revelación, la lengua del Corán y la llave para comprender verdaderamente la Palabra de Allah. Cada letra tiene su resonancia y cada palabra transmite precisión de significado y belleza de expresión.</p><p>Al dominar el árabe, no solo leerás los textos — los vivirás, descubriendo profundidades que antes no percibías. Disfrutarás de sus milagros retóricos y sentirás la belleza oculta que ilumina tu corazón y alimenta tu espíritu.</p><p>En <em>la Academia Sadid</em>, ofrecemos un programa progresivo que combina claridad en las explicaciones y belleza en el estilo, guiándote desde tus primeras letras hasta la elocuencia completa.</p><p>No dejes que la lengua del Corán te siga siendo ajena. Acércate y date la oportunidad de comprender realmente las palabras de Dios... <strong>Inscríbete hoy</strong> y comienza tu viaje.</p>`,
       },
       {
         id: "b3",
         title: "El conocimiento sagrado... Luz y guía en tiempos de prueba",
         desc: "A través del conocimiento, distingues la verdad de la falsedad y vives con paz y firmeza en el camino recto.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
-        longContent: `<p>En estos tiempos de muchas pruebas y voces diversas, nada protege tu corazón y fortalece tus pasos como el <strong>conocimiento sagrado</strong>. Es la luz que revela el camino de la verdad y la brújula que orienta tu vida hacia la complacencia de Allah.</p><p>El conocimiento no es solo memorizar información, sino una comprensión profunda, una visión clara y una sabiduría para afrontar cada situación. Es tu provisión para el viaje de la vida y tu escudo contra las dudas y tentaciones.</p><p>En <em>la Academia Al-Zikr</em>, ofrecemos enseñanza estructurada de fiqh, aqidah y sirah, en un estilo accesible para todos los niveles, para que tengas claridad en tu religión y vivas en paz sin importar los cambios del mundo.</p><p>Comienza hoy. No dejes tu corazón sin luz ni tu vida sin guía... <strong>Únete ahora</strong> y deja que el conocimiento sea tu compañero para siempre.</p>`,
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        longContent: `<p>En estos tiempos de muchas pruebas y voces diversas, nada protege tu corazón y fortalece tus pasos como el <strong>conocimiento sagrado</strong>. Es la luz que revela el camino de la verdad y la brújula que orienta tu vida hacia la complacencia de Allah.</p><p>El conocimiento no es solo memorizar información, sino una comprensión profunda, una visión clara y una sabiduría para afrontar cada situación. Es tu provisión para el viaje de la vida y tu escudo contra las dudas y tentaciones.</p><p>En <em>la Academia Sadid</em>, ofrecemos enseñanza estructurada de fiqh, aqidah y sirah, en un estilo accesible para todos los niveles, para que tengas claridad en tu religión y vivas en paz sin importar los cambios del mundo.</p><p>Comienza hoy. No dejes tu corazón sin luz ni tu vida sin guía... <strong>Únete ahora</strong> y deja que el conocimiento sea tu compañero para siempre.</p>`,
       },
     ],
     fr: [
@@ -516,22 +516,22 @@ const translations = {
         id: "b1",
         title: "Un voyage au cœur du Coran... Commencez dès aujourd’hui",
         desc: "À chaque verset mémorisé, une lumière éclot dans votre cœur, votre foi grandit et vous vous rapprochez du véritable sens de la vie.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
-        longContent: `<p>Il existe des voyages qui changent le cours d’une vie, mais aucun n’est plus profond ni plus vrai que celui qui vous mène au <strong>cœur du Saint Coran</strong>. C’est le Livre d’Allah, dont les merveilles ne s’épuisent jamais, que les savants ne cessent d’explorer, et dont la récitation ne lasse jamais les croyants.</p><p>Le Coran n’est pas seulement des mots à réciter ; c’est un souffle qui traverse votre âme, apaise votre cœur dans les moments de doute et illumine votre chemin dans l’obscurité de ce monde. Chaque verset porte un message personnel pour vous, et chaque sourate tisse un nouveau sens à votre vie.</p><p>À <em>l’Académie Al-Zikr</em>, nous vous accompagnons pas à pas, de la première lettre jusqu’à la maîtrise complète. Vous apprendrez la récitation correcte, goûterez à la beauté de ses significations et sentirez la proximité d’Allah à chaque leçon. Nos cours sont interactifs, nos enseignants expérimentés et nos programmes adaptés à votre temps et à votre niveau.</p><p>Ne retardez pas votre voyage avec le Coran, car chaque jour loin de lui est un jour perdu de paix et de lumière. Faites d’aujourd’hui le début d’un nouveau pacte avec les paroles d’Allah... <strong>Inscrivez-vous maintenant</strong> et laissez le Coran transformer votre vie pour toujours.</p>`,
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
+        longContent: `<p>Il existe des voyages qui changent le cours d’une vie, mais aucun n’est plus profond ni plus vrai que celui qui vous mène au <strong>cœur du Saint Coran</strong>. C’est le Livre d’Allah, dont les merveilles ne s’épuisent jamais, que les savants ne cessent d’explorer, et dont la récitation ne lasse jamais les croyants.</p><p>Le Coran n’est pas seulement des mots à réciter ; c’est un souffle qui traverse votre âme, apaise votre cœur dans les moments de doute et illumine votre chemin dans l’obscurité de ce monde. Chaque verset porte un message personnel pour vous, et chaque sourate tisse un nouveau sens à votre vie.</p><p>À <em>l’Académie Sadid</em>, nous vous accompagnons pas à pas, de la première lettre jusqu’à la maîtrise complète. Vous apprendrez la récitation correcte, goûterez à la beauté de ses significations et sentirez la proximité d’Allah à chaque leçon. Nos cours sont interactifs, nos enseignants expérimentés et nos programmes adaptés à votre temps et à votre niveau.</p><p>Ne retardez pas votre voyage avec le Coran, car chaque jour loin de lui est un jour perdu de paix et de lumière. Faites d’aujourd’hui le début d’un nouveau pacte avec les paroles d’Allah... <strong>Inscrivez-vous maintenant</strong> et laissez le Coran transformer votre vie pour toujours.</p>`,
       },
       {
         id: "b2",
         title: "La langue arabe... La clé pour comprendre la Parole de Dieu",
         desc: "En maîtrisant la langue du Coran, les trésors du sens s’ouvrent devant vous et le voile entre vous et la lumière de la révélation se lève.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
-        longContent: `<p>La langue arabe n’est pas seulement un moyen de communication ; c’est le réceptacle de la révélation, la langue du Coran et la clé pour comprendre véritablement la Parole d’Allah. Chaque lettre a sa résonance et chaque mot porte la précision du sens et la beauté de l’expression.</p><p>En maîtrisant l’arabe, vous ne vous contenterez pas de lire les textes — vous les vivrez, découvrant des profondeurs que vous n’aviez jamais perçues auparavant. Vous goûterez à ses miracles rhétoriques et ressentirez la beauté cachée qui éclaire votre cœur et nourrit votre esprit.</p><p>À <em>l’Académie Al-Zikr</em>, nous proposons un programme progressif qui allie clarté des explications et beauté du style, vous conduisant de vos premières lettres à la maîtrise, de la grammaire de base à l’éloquence expressive.</p><p>Ne laissez pas la langue du Coran vous rester étrangère. Approchez-vous, et donnez-vous la chance de comprendre réellement les paroles de Dieu... <strong>Inscrivez-vous dès aujourd’hui</strong> et commencez votre voyage.</p>`,
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
+        longContent: `<p>La langue arabe n’est pas seulement un moyen de communication ; c’est le réceptacle de la révélation, la langue du Coran et la clé pour comprendre véritablement la Parole d’Allah. Chaque lettre a sa résonance et chaque mot porte la précision du sens et la beauté de l’expression.</p><p>En maîtrisant l’arabe, vous ne vous contenterez pas de lire les textes — vous les vivrez, découvrant des profondeurs que vous n’aviez jamais perçues auparavant. Vous goûterez à ses miracles rhétoriques et ressentirez la beauté cachée qui éclaire votre cœur et nourrit votre esprit.</p><p>À <em>l’Académie Sadid</em>, nous proposons un programme progressif qui allie clarté des explications et beauté du style, vous conduisant de vos premières lettres à la maîtrise, de la grammaire de base à l’éloquence expressive.</p><p>Ne laissez pas la langue du Coran vous rester étrangère. Approchez-vous, et donnez-vous la chance de comprendre réellement les paroles de Dieu... <strong>Inscrivez-vous dès aujourd’hui</strong> et commencez votre voyage.</p>`,
       },
       {
         id: "b3",
         title: "Le savoir sacré... Lumière et guidance en temps d’épreuve",
         desc: "Grâce au savoir, vous distinguez la vérité du faux et vous vivez dans la paix et la constance sur le droit chemin.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
-        longContent: `<p>En ces temps où les épreuves sont nombreuses et les voix multiples, rien ne protège votre cœur et n’affermit vos pas comme le <strong>savoir sacré</strong>. C’est la lumière qui révèle le chemin de la vérité, la boussole qui oriente votre vie vers la satisfaction d’Allah.</p><p>Le savoir n’est pas seulement la mémorisation d’informations, mais une compréhension profonde, une vision claire et une sagesse pour affronter chaque situation. C’est votre provision pour le voyage de la vie et votre bouclier contre les doutes et les tentations.</p><p>À <em>l’Académie Al-Zikr</em>, nous offrons un enseignement structuré de fiqh, aqidah et sirah, dans un style accessible à tous les niveaux, afin que vous soyez clairvoyant dans votre religion et viviez en paix, quelles que soient les évolutions du monde.</p><p>Commencez dès aujourd’hui. Ne laissez pas votre cœur sans lumière ni votre vie sans guidance... <strong>Rejoignez-nous maintenant</strong> et laissez le savoir être votre compagnon pour toujours.</p>`,
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        longContent: `<p>En ces temps où les épreuves sont nombreuses et les voix multiples, rien ne protège votre cœur et n’affermit vos pas comme le <strong>savoir sacré</strong>. C’est la lumière qui révèle le chemin de la vérité, la boussole qui oriente votre vie vers la satisfaction d’Allah.</p><p>Le savoir n’est pas seulement la mémorisation d’informations, mais une compréhension profonde, une vision claire et une sagesse pour affronter chaque situation. C’est votre provision pour le voyage de la vie et votre bouclier contre les doutes et les tentations.</p><p>À <em>l’Académie Sadid</em>, nous offrons un enseignement structuré de fiqh, aqidah et sirah, dans un style accessible à tous les niveaux, afin que vous soyez clairvoyant dans votre religion et viviez en paix, quelles que soient les évolutions du monde.</p><p>Commencez dès aujourd’hui. Ne laissez pas votre cœur sans lumière ni votre vie sans guidance... <strong>Rejoignez-nous maintenant</strong> et laissez le savoir être votre compagnon pour toujours.</p>`,
       },
     ],
     it: [
@@ -539,22 +539,22 @@ const translations = {
         id: "b1",
         title: "Un viaggio nel cuore del Corano... Inizia oggi",
         desc: "Ogni versetto memorizzato è una luce che cresce nel cuore, rafforza la tua fede e ti avvicina al vero senso della vita.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
-        longContent: `<p>Ci sono viaggi che cambiano il corso di una vita, ma nessuno è più profondo e vero di quello che ti conduce al <strong>cuore del Sacro Corano</strong>. È il Libro di Allah, le cui meraviglie non finiscono mai, studiato dai sapienti senza sosta e la cui recitazione non stanca mai i credenti.</p><p>Il Corano non è solo parole da recitare; è un soffio che attraversa l’anima, calma il cuore nei momenti di dubbio e illumina il cammino nell’oscurità di questo mondo. Ogni versetto porta un messaggio personale per te e ogni sura intesse un nuovo significato nella tua vita.</p><p>All’<em>Accademia Al-Zikr</em>, ti accompagniamo passo dopo passo, dalla prima lettera fino alla completa padronanza. Imparerai la recitazione corretta, assaporerai la bellezza dei suoi significati e sentirai la vicinanza di Allah in ogni lezione.</p><p>Non rimandare il tuo viaggio con il Corano, perché ogni giorno lontano da esso è un giorno perso di pace e luce. Fai che oggi sia l’inizio di un nuovo patto con le parole di Allah... <strong>Iscriviti ora</strong> e lascia che il Corano trasformi per sempre la tua vita.</p>`,
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
+        longContent: `<p>Ci sono viaggi che cambiano il corso di una vita, ma nessuno è più profondo e vero di quello che ti conduce al <strong>cuore del Sacro Corano</strong>. È il Libro di Allah, le cui meraviglie non finiscono mai, studiato dai sapienti senza sosta e la cui recitazione non stanca mai i credenti.</p><p>Il Corano non è solo parole da recitare; è un soffio che attraversa l’anima, calma il cuore nei momenti di dubbio e illumina il cammino nell’oscurità di questo mondo. Ogni versetto porta un messaggio personale per te e ogni sura intesse un nuovo significato nella tua vita.</p><p>All’<em>Accademia Sadid</em>, ti accompagniamo passo dopo passo, dalla prima lettera fino alla completa padronanza. Imparerai la recitazione corretta, assaporerai la bellezza dei suoi significati e sentirai la vicinanza di Allah in ogni lezione.</p><p>Non rimandare il tuo viaggio con il Corano, perché ogni giorno lontano da esso è un giorno perso di pace e luce. Fai che oggi sia l’inizio di un nuovo patto con le parole di Allah... <strong>Iscriviti ora</strong> e lascia che il Corano trasformi per sempre la tua vita.</p>`,
       },
       {
         id: "b2",
         title: "La lingua araba... La chiave per comprendere la Parola di Dio",
         desc: "Padroneggiando la lingua del Corano, i tesori del significato si aprono davanti a te e la luce della rivelazione si manifesta.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
-        longContent: `<p>L’arabo non è solo un mezzo di comunicazione; è il recipiente della rivelazione, la lingua del Corano e la chiave per comprendere veramente la Parola di Allah. Ogni lettera ha la sua risonanza e ogni parola trasmette precisione e bellezza.</p><p>Padroneggiando l’arabo, non ti limiterai a leggere i testi — li vivrai, scoprendo profondità che prima non percepivi. Gusterai i suoi miracoli retorici e sentirai la bellezza nascosta che ilumina il cuore e nutre lo spirito.</p><p>All’<em>Accademia Al-Zikr</em>, offriamo un programma progressivo che unisce chiarezza nelle spiegazioni e bellezza nello stile, guidandoti dalle prime lettere fino all’eloquenza completa.</p><p>Non lasciare che la lingua del Corano ti resti estranea. Avvicinati e concediti la possibilità di comprendere davvero le parole di Dio... <strong>Iscriviti oggi</strong> e inizia il tuo viaggio.</p>`,
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
+        longContent: `<p>L’arabo non è solo un mezzo di comunicazione; è il recipiente della rivelazione, la lingua del Corano e la chiave per comprendere veramente la Parola di Allah. Ogni lettera ha la sua risonanza e ogni parola trasmette precisione e bellezza.</p><p>Padroneggiando l’arabo, non ti limiterai a leggere i testi — li vivrai, scoprendo profondità che prima non percepivi. Gusterai i suoi miracoli retorici e sentirai la bellezza nascosta che ilumina il cuore e nutre lo spirito.</p><p>All’<em>Accademia Sadid</em>, offriamo un programma progressivo che unisce chiarezza nelle spiegazioni e bellezza nello stile, guidandoti dalle prime lettere fino all’eloquenza completa.</p><p>Non lasciare che la lingua del Corano ti resti estranea. Avvicinati e concediti la possibilità di comprendere davvero le parole di Dio... <strong>Iscriviti oggi</strong> e inizia il tuo viaggio.</p>`,
       },
       {
         id: "b3",
         title: "La conoscenza sacra... Luce e guida nei tempi di prova",
         desc: "Attraverso la conoscenza distingui il vero dal falso e vivi in pace e fermezza sulla retta via.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
-        longContent: `<p>In tempi di molte prove e voci contrastanti, nulla protegge il cuore e rafforza i tuoi passi come la <strong>conoscenza sacra</strong>. È la luce che rivela il cammino della verità e la bussola che orienta la tua vita verso la soddisfazione di Allah.</p><p>La conoscenza non è solo memorizzare informazioni, ma comprensione profonda, visione chiara e saggezza per affrontare ogni situazione. È la tua provvista per il viaggio della vita e il tuo scudo contro dubbi e tentazioni.</p><p>All’<em>Accademia Al-Zikr</em>, offriamo insegnamenti strutturati di fiqh, aqidah e sirah, con uno stile accessibile a tutti i livelli, affinché tu abbia chiarezza nella religione e viva in pace, qualunque siano i cambiamenti del mondo.</p><p>Inizia oggi. Non lasciare il tuo cuore senza luce né la tua vita senza guida... <strong>Unisciti a noi ora</strong> e lascia che la conoscenza sia il tuo compagno per sempre.</p>`,
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        longContent: `<p>In tempi di molte prove e voci contrastanti, nulla protegge il cuore e rafforza i tuoi passi come la <strong>conoscenza sacra</strong>. È la luce che rivela il cammino della verità e la bussola che orienta la tua vita verso la soddisfazione di Allah.</p><p>La conoscenza non è solo memorizzare informazioni, ma comprensione profonda, visione chiara e saggezza per affrontare ogni situazione. È la tua provvista per il viaggio della vita e il tuo scudo contro dubbi e tentazioni.</p><p>All’<em>Accademia Sadid</em>, offriamo insegnamenti strutturati di fiqh, aqidah e sirah, con uno stile accessibile a tutti i livelli, affinché tu abbia chiarezza nella religione e viva in pace, qualunque siano i cambiamenti del mondo.</p><p>Inizia oggi. Non lasciare il tuo cuore senza luce né la tua vita senza guida... <strong>Unisciti a noi ora</strong> e lascia che la conoscenza sia il tuo compagno per sempre.</p>`,
       },
     ],
     de: [
@@ -562,22 +562,22 @@ const translations = {
         id: "b1",
         title: "Eine Reise ins Herz des Korans... Beginnen Sie noch heute",
         desc: "Mit jedem auswendig gelernten Vers wächst ein Licht in Ihrem Herzen, Ihr Glaube wird stärker und Sie nähern sich dem wahren Sinn des Lebens.",
-        img: "https://i.ibb.co/0RWRj9Db/download-1.jpg",
-        longContent: `<p>Es gibt Reisen, die den Lauf eines Lebens verändern, aber keine ist tiefer und wahrer als die, die Sie ins <strong>Herz des Heiligen Korans</strong> führt. Es ist das Buch Allahs, dessen Wunder niemals enden, das von Gelehrten unaufhörlich studiert wird und dessen Rezitation die Gläubigen niemals ermüdet.</p><p>Der Koran ist nicht nur zum Rezitieren; er ist ein Atemzug, der Ihre Seele durchdringt, Ihr Herz in Momenten des Zweifels beruhigt und Ihren Weg in der Dunkelheit dieser Welt erhellt. Jeder Vers trägt eine persönliche Botschaft für Sie, und jede Sure webt einen neuen Sinn in Ihr Leben.</p><p>An der <em>Al-Zikr Akademie</em> begleiten wir Sie Schritt für Schritt, vom ersten Buchstaben bis zur vollkommenen Beherrschung. Sie lernen die korrekte Rezitation, genießen die Schönheit seiner Bedeutungen und spüren in jeder Lektion die Nähe zu Allah.</p><p>Verschieben Sie Ihre Reise mit dem Koran nicht, denn jeder Tag fern von ihm ist ein verlorener Tag voller Frieden und Licht. Machen Sie heute den Beginn eines neuen Bundes mit den Worten Allahs... <strong>Melden Sie sich jetzt an</strong> und lassen Sie den Koran Ihr Leben für immer verändern.</p>`,
+        img: "https://i.ibb.co/WWBq6JQm/download-1.jpg",
+        longContent: `<p>Es gibt Reisen, die den Lauf eines Lebens verändern, aber keine ist tiefer und wahrer als die, die Sie ins <strong>Herz des Heiligen Korans</strong> führt. Es ist das Buch Allahs, dessen Wunder niemals enden, das von Gelehrten unaufhörlich studiert wird und dessen Rezitation die Gläubigen niemals ermüdet.</p><p>Der Koran ist nicht nur zum Rezitieren; er ist ein Atemzug, der Ihre Seele durchdringt, Ihr Herz in Momenten des Zweifels beruhigt und Ihren Weg in der Dunkelheit dieser Welt erhellt. Jeder Vers trägt eine persönliche Botschaft für Sie, und jede Sure webt einen neuen Sinn in Ihr Leben.</p><p>An der <em>Sadid Akademie</em> begleiten wir Sie Schritt für Schritt, vom ersten Buchstaben bis zur vollkommenen Beherrschung. Sie lernen die korrekte Rezitation, genießen die Schönheit seiner Bedeutungen und spüren in jeder Lektion die Nähe zu Allah.</p><p>Verschieben Sie Ihre Reise mit dem Koran nicht, denn jeder Tag fern von ihm ist ein verlorener Tag voller Frieden und Licht. Machen Sie heute den Beginn eines neuen Bundes mit den Worten Allahs... <strong>Melden Sie sich jetzt an</strong> und lassen Sie den Koran Ihr Leben für immer verändern.</p>`,
       },
       {
         id: "b2",
         title: "Die arabische Sprache... Der Schlüssel zum Verständnis des Wortes Gottes",
         desc: "Mit der Beherrschung der Sprache des Korans öffnen sich die Schätze der Bedeutung vor Ihnen und das Licht der Offenbarung wird sichtbar.",
-        img: "https://i.ibb.co/1fVx0h3h/29b13779-c61d-4a09-a4c1-9942d150d66f.jpg",
-        longContent: `<p>Arabisch ist nicht nur ein Kommunikationsmittel; es ist das Gefäß der Offenbarung, die Sprache des Korans und der Schlüssel zum wahren Verständnis des Wortes Allahs. Jeder Buchstabe hat seine Resonanz und jedes Wort trägt Präzision und Ausdrucksschönheit.</p><p>Mit der Beherrschung des Arabischen werden Sie die Texte nicht nur lesen — Sie werden sie erleben und Tiefen entdecken, die Ihnen zuvor verborgen waren. Sie werden seine rhetorischen Wunder schmecken und die verborgene Schönheit spüren, die Ihr Herz erhellt und Ihren Geist nährt.</p><p>An der <em>Al-Zikr Akademie</em> bieten wir ein stufenweises Programm, das Klarheit in den Erklärungen und Schönheit im Stil vereint, um Sie von den ersten Buchstaben bis zur vollständigen Sprachgewandtheit zu führen.</p><p>Lassen Sie nicht zu, dass die Sprache des Korans Ihnen fremd bleibt. Nähern Sie sich und geben Sie sich die Chance, Gottes Worte wirklich zu verstehen... <strong>Melden Sie sich noch heute an</strong> und beginnen Sie Ihre Reise.</p>`,
+        img: "https://i.ibb.co/fVd1wwpB/0d9c1c95-1415-46d6-bf0a-9a3658668a00.jpg",
+        longContent: `<p>Arabisch ist nicht nur ein Kommunikationsmittel; es ist das Gefäß der Offenbarung, die Sprache des Korans und der Schlüssel zum wahren Verständnis des Wortes Allahs. Jeder Buchstabe hat seine Resonanz und jedes Wort trägt Präzision und Ausdrucksschönheit.</p><p>Mit der Beherrschung des Arabischen werden Sie die Texte nicht nur lesen — Sie werden sie erleben und Tiefen entdecken, die Ihnen zuvor verborgen waren. Sie werden seine rhetorischen Wunder schmecken und die verborgene Schönheit spüren, die Ihr Herz erhellt und Ihren Geist nährt.</p><p>An der <em>Sadid Akademie</em> bieten wir ein stufenweises Programm, das Klarheit in den Erklärungen und Schönheit im Stil vereint, um Sie von den ersten Buchstaben bis zur vollständigen Sprachgewandtheit zu führen.</p><p>Lassen Sie nicht zu, dass die Sprache des Korans Ihnen fremd bleibt. Nähern Sie sich und geben Sie sich die Chance, Gottes Worte wirklich zu verstehen... <strong>Melden Sie sich noch heute an</strong> und beginnen Sie Ihre Reise.</p>`,
       },
       {
         id: "b3",
         title: "Das heilige Wissen... Licht und Führung in Zeiten der Prüfung",
         desc: "Durch Wissen unterscheiden Sie Wahrheit von Falschheit und leben in Frieden und Standhaftigkeit auf dem rechten Weg.",
-        img: 'https://i.ibb.co/n4YZj0R/49162da3-1a4d-44e8-a6c5-ec1c8823e7ca.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
-        longContent: `<p>In Zeiten vieler Prüfungen und widersprüchlicher Stimmen schützt nichts Ihr Herz und stärkt Ihre Schritte so sehr wie <strong>heiliges Wissen</strong>. Es ist das Licht, das den Weg der Wahrheit offenbart, und der Kompass, der Ihr Leben zur Zufriedenheit Allahs ausrichtet.</p><p>Wissen bedeutet nicht nur das Auswendiglernen von Informationen, sondern tiefes Verständnis, klare Sicht und Weisheit, um jede Situation zu meistern. Es ist Ihre Versorgung für die Reise des Lebens und Ihr Schild gegen Zweifel und Versuchungen.</p><p>An der <em>Al-Zikr Akademie</em> bieten wir strukturierten Unterricht in Fiqh, Aqidah und Sirah in einem Stil, der für alle Niveaus zugänglich ist, damit Sie Klarheit in Ihrer Religion haben und in Frieden leben können, egal wie sich die Welt verändert.</p><p>Beginnen Sie heute. Lassen Sie Ihr Herz nicht ohne Licht und Ihr Leben nicht ohne Führung... <strong>Schließen Sie sich uns jetzt an</strong> und lassen Sie Wissen Ihr ständiger Begleiter sein.</p>`,
+        img: 'https://i.ibb.co/yFVWXThV/1.jpg" alt="49162da3-1a4d-44e8-a6c5-ec1c8823e7ca',
+        longContent: `<p>In Zeiten vieler Prüfungen und widersprüchlicher Stimmen schützt nichts Ihr Herz und stärkt Ihre Schritte so sehr wie <strong>heiliges Wissen</strong>. Es ist das Licht, das den Weg der Wahrheit offenbart, und der Kompass, der Ihr Leben zur Zufriedenheit Allahs ausrichtet.</p><p>Wissen bedeutet nicht nur das Auswendiglernen von Informationen, sondern tiefes Verständnis, klare Sicht und Weisheit, um jede Situation zu meistern. Es ist Ihre Versorgung für die Reise des Lebens und Ihr Schild gegen Zweifel und Versuchungen.</p><p>An der <em>Sadid Akademie</em> bieten wir strukturierten Unterricht in Fiqh, Aqidah und Sirah in einem Stil, der für alle Niveaus zugänglich ist, damit Sie Klarheit in Ihrer Religion haben und in Frieden leben können, egal wie sich die Welt verändert.</p><p>Beginnen Sie heute. Lassen Sie Ihr Herz nicht ohne Licht und Ihr Leben nicht ohne Führung... <strong>Schließen Sie sich uns jetzt an</strong> und lassen Sie Wissen Ihr ständiger Begleiter sein.</p>`,
       },
     ],
   };
@@ -588,21 +588,21 @@ const translations = {
         id: "c1",
         title: "دورة حفظ وتجويد القرآن الكريم",
         desc: "رحلة إيمانية متكاملة لحفظ كتاب الله بإتقان وتعلّم أحكام التجويد بأسلوب تطبيقي مباشر.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
   
       {
         id: "c2",
         title: "العربية للناطقين بغيرها – من الصفر إلى الإتقان",
         desc: "أسلوب مبسط لتعلّم المحادثة والقراءة والكتابة، مع تدريبات نطق وتطبيقات عملية.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "دورة العلوم الشرعية (فقه، عقيدة، سيرة، وحديث)",
         desc: "مدخل شامل لفهم أصول الدين وقواعد الفقه وأحداث السيرة النبوية وأحاديث الرسول ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   
@@ -611,21 +611,21 @@ const translations = {
         id: "c1",
         title: "Qur’an Memorization and Tajweed Course",
         desc: "A complete spiritual journey to memorize the Book of Allah with mastery and learn Tajweed rules through direct practical application.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
   
       {
         id: "c2",
         title: "Arabic for Non-Native Speakers – From Zero to Mastery",
         desc: "A simplified method to learn speaking, reading, and writing, with pronunciation drills and practical applications.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "Islamic Studies Course (Fiqh, Creed, Seerah, and Hadith)",
         desc: "A comprehensive introduction to understanding the fundamentals of religion, the principles of fiqh, the Prophet’s biography, and his sayings ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   
@@ -634,21 +634,21 @@ const translations = {
         id: "c1",
         title: "Curso de Memorización y Tajwid del Corán",
         desc: "Un viaje espiritual completo para memorizar el Libro de Allah con excelencia y aprender las reglas del Tajwid de manera práctica.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
   
       {
         id: "c2",
         title: "Árabe para Extranjeros – De Cero a la Maestría",
         desc: "Un método simplificado para aprender a hablar, leer y escribir, con ejercicios de pronunciación y aplicaciones prácticas.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "Curso de Estudios Islámicos (Fiqh, Aqidah, Sira y Hadices)",
         desc: "Una introducción completa para comprender los fundamentos de la religión, las bases del fiqh, la biografía del Profeta y sus dichos ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   
@@ -657,21 +657,21 @@ const translations = {
         id: "c1",
         title: "Cours de Mémorisation et de Tajwid du Coran",
         desc: "Un voyage spirituel complet pour mémoriser le Livre d’Allah avec maîtrise et apprendre les règles du Tajwid de manière pratique.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
   
       {
         id: "c2",
         title: "Arabe pour les Non-Natifs – Du Zéro à la Maîtrise",
         desc: "Une méthode simplifiée pour apprendre à parler, lire et écrire, avec des exercices de prononciation et des applications pratiques.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "Cours d’Études Islamiques (Fiqh, Aqida, Sira et Hadith)",
         desc: "Une introduction complète à la compréhension des fondements de la religion, des bases du fiqh, de la biographie du Prophète et de ses paroles ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   
@@ -680,21 +680,21 @@ const translations = {
         id: "c1",
         title: "Corso di Memorizzazione e Tajweed del Corano",
         desc: "Un viaggio spirituale completo per memorizzare il Libro di Allah con padronanza e apprendere le regole del Tajweed in modo pratico.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
   
       {
         id: "c2",
         title: "Arabo per Stranieri – Dallo Zero alla Padronanza",
         desc: "Un metodo semplificato per imparare a parlare, leggere e scrivere, con esercizi di pronuncia e applicazioni pratiche.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "Corso di Studi Islamici (Fiqh, Aqida, Sira e Hadith)",
         desc: "Un’introduzione completa per comprendere i fondamenti della religione, i principi del fiqh, la biografia del Profeta e i suoi detti ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   
@@ -703,20 +703,20 @@ const translations = {
         id: "c1",
         title: "Koran-Memorierungs- und Tajwid-Kurs",
         desc: "Eine vollständige spirituelle Reise, um das Buch Allahs auswendig zu lernen und die Regeln des Tajwid praktisch anzuwenden.",
-        img: "https://i.ibb.co/zHH7MBkq/7d595c73-b785-4a15-bd60-c77776fab2f9.jpg",
+        img: "https://i.ibb.co/Lzfr1wYR/download.jpg",
       },
       {
         id: "c2",
         title: "Arabisch für Nicht-Muttersprachler – Von Null zur Meisterschaft",
         desc: "Eine vereinfachte Methode, um Sprechen, Lesen und Schreiben zu lernen, mit Ausspracheübungen und praktischen Anwendungen.",
-        img: 'https://i.ibb.co/Qq6QJKB/4d1b8104-dc39-44ac-9131-f9168845583e.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
+        img: 'https://i.ibb.co/0RjRvWpS/image.jpg" alt="4d1b8104-dc39-44ac-9131-f9168845583e',
       },
   
       {
         id: "c3",
         title: "Islamwissenschaften-Kurs (Fiqh, Aqida, Sira und Hadith)",
         desc: "Eine umfassende Einführung in das Verständnis der Grundlagen der Religion, der Prinzipien des Fiqh, der Biografie des Propheten und seiner Hadithe ﷺ.",
-        img: 'https://i.ibb.co/Wvht8PKp/e45871a1-5a8f-46db-bcee-1129012d1b58.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
+        img: 'https://i.ibb.co/bM4hP8pQ/download-2.jpg" alt="e45871a1-5a8f-46db-bcee-1129012d1b58',
       },
     ],
   };
@@ -1387,8 +1387,8 @@ const translations = {
     const org = {
       "@context": "https://schema.org",
       "@type": "EducationalOrganization",
-      name: translations[lang]?.["site-title"] || "أكاديمية الذِّكر",
-      url: "https://alzikracademy.netlify.app",
+      name: translations[lang]?.["site-title"] || "أكاديمية سديد",
+      url: "https://sadidacademy.netlify.app",
       description: "أكاديمية لتعليم القرآن الكريم واللغة العربية والعلوم الشرعية للأعاجم.",
       logo: window.location.origin + "/images/favicon.webp",
     };
@@ -1398,7 +1398,7 @@ const translations = {
       description: c.desc || "",
       provider: {
         "@type": "Organization",
-        name: translations[lang]?.["site-title"] || "أكاديمية الذِّكر",
+        name: translations[lang]?.["site-title"] || "أكاديمية سديد",
       },
     }));
     const graph = [org, ...list];
