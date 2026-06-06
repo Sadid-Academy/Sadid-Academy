@@ -1,0 +1,11 @@
+{
+  "name": "sadid-academy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./tailwind-compiled.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./tailwind-compiled.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
