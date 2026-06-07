@@ -20,8 +20,8 @@
       <link rel="canonical" href="https://sadidacademy.netlify.app/courses" />
       <meta property="og:locale" content="ar_AR" />
       
-      <link rel="preload" href="tailwind-compiled.css" as="style">
-      <link rel="stylesheet" href="tailwind-compiled.css">
+      <link rel="preload" href="tailwind-compiled.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="tailwind-compiled.css"></noscript>
       <link rel="icon" type="image/png" href="assets/images/logo.webp" />
       <link rel="alternate" hreflang="ar" href="https://sadidacademy.netlify.app/courses" />
       <link rel="alternate" hreflang="en" href="https://sadidacademy.netlify.app/courses?lang=en" />
@@ -41,10 +41,13 @@
       <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap">
       </noscript>
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    
-      <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </noscript>
+
+  <link rel="preload" href="https://unpkg.com/aos@2.3.4/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
       <noscript>
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
       </noscript>
@@ -471,7 +474,7 @@
             <!-- Grid -->
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="courses-grid" role="list">
                 <!-- Course Card 1: Quran -->
-                <div class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="0">
+                <div role="listitem" class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="0">
                     <div class="course-img-wrapper relative h-60 overflow-hidden">
                         <div class="absolute top-4 right-4 z-10">
                             <span class="px-3 py-1 rounded-full text-xs font-bold bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm text-gray-800 dark:text-white shadow-sm border border-gray-100 dark:border-gray-700 flex items-center gap-2">
@@ -512,7 +515,7 @@
                 </div>
 
                 <!-- Course Card 2: Arabic -->
-                <div class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="100">
+                <div role="listitem" class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="100">
                     <div class="course-img-wrapper relative h-60 overflow-hidden">
                         <div class="absolute top-4 right-4 z-10">
                             <span class="px-3 py-1 rounded-full text-xs font-bold bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm text-gray-800 dark:text-white shadow-sm border border-gray-100 dark:border-gray-700 flex items-center gap-2">
@@ -553,7 +556,7 @@
                 </div>
 
                 <!-- Course Card 3: Islamic Studies -->
-                <div class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="200">
+                <div role="listitem" class="course-card-modern group h-full flex flex-col" data-aos="fade-up" data-aos-delay="200">
                     <div class="course-img-wrapper relative h-60 overflow-hidden">
                         <div class="absolute top-4 right-4 z-10">
                             <span class="px-3 py-1 rounded-full text-xs font-bold bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm text-gray-800 dark:text-white shadow-sm border border-gray-100 dark:border-gray-700 flex items-center gap-2">
@@ -634,7 +637,7 @@
         </a>
        </div>
       </div>
-      <div aria-modal="true" class="modal-backdrop" id="articleModal" role="dialog">
+      <div aria-modal="true" class="modal-backdrop" id="articleModal" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalBody">
        <div class="modal-card">
         <button aria-label="إغلاق" class="modal-close" id="modalClose">
          <i class="fa-solid fa-xmark">

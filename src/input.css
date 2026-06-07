@@ -2,6 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
+/* =================== Accessibility Improvements =================== */
+
+/* Focus Visible Styles - تحسين مؤشرات التركيز */
+@layer base {
+  /* تحسين Focus indicators للجميع */
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-500 rounded;
+  }
+
+  /* تحسين Focus للعناصر التفاعلية */
+  button:focus,
+  a:focus,
+  input:focus,
+  select:focus,
+  textarea:focus {
+    @apply outline-none;
+  }
+
+  /* إزالة outline الافتراضي من الـ Firefox */
+  button:-moz-focusring,
+  a:-moz-focusring,
+  input:-moz-focusring,
+  select:-moz-focusring,
+  textarea:-moz-focusring {
+    @apply outline-2 outline-offset-2 outline-blue-500;
+  }
+
+  /* تحسين selection color */
+  ::selection {
+    @apply bg-yellow-400 text-gray-900;
+  }
+
+  /* للـ RTL نفس التحسينات */
+  [dir="rtl"] button:focus-visible,
+  [dir="rtl"] a:focus-visible {
+    @apply outline-2 outline-offset-2 outline-blue-500;
+  }
+}
+
+/* =================== Performance Optimization =================== */
+
+/* تحسين الرسوميات */
+@layer components {
+  /* تحسين الأداء للعناصر المتحركة */
+  .animate-pulse,
+  .animate-bounce,
+  .transition {
+    @apply will-change-auto;
+  }
+
+  /* تحسين performance للـ Modal */
+  .modal-backdrop {
+    @apply fixed inset-0 bg-black/50 backdrop-blur-sm z-[9998];
+    will-change: backdrop-filter;
+  }
+
+  /* تحسين performance للـ hover effects */
+  @media (hover: hover) and (pointer: fine) {
+    button:hover,
+    a:hover {
+      @apply transition-all duration-300;
+    }
+  }
+}
+
 /* تجاوز إعدادات خطوط Font Awesome لحل مشكلة font-display في PageSpeed */
 @font-face {
     font-family: 'Font Awesome 6 Brands';

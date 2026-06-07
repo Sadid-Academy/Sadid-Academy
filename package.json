@@ -2,7 +2,7 @@
   "name": "sadid-academy",
   "version": "1.0.0",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./tailwind-compiled.css --minify",
+    "build": "NODE_ENV=production tailwindcss -i ./src/input.css -o ./tailwind-compiled.css --minify",
     "dev": "tailwindcss -i ./src/input.css -o ./tailwind-compiled.css --watch"
   },
   "devDependencies": {

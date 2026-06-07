@@ -432,6 +432,7 @@ function renderBlog(dict) {
 
   list.forEach((item, index) => {
     const card = document.createElement("article");
+    card.setAttribute("role", "listitem");
     card.dataset.aos = "fade-up";
     card.dataset.aosDelay = index * 150;
     card.className = "blog-card-modern group relative flex flex-col h-full rounded-[2rem] overflow-hidden transition-all duration-500 cursor-pointer";
@@ -509,7 +510,7 @@ function renderCourses(dict, filter = currentFilter, search = currentSearch) {
   if (list.length === 0) {
     const noResultMsg = dict.noResultMsg || "No courses found";
     grid.innerHTML = `
-      <div class="col-span-full text-center py-12" data-aos="fade-in">
+      <div role="listitem" class="col-span-full text-center py-12" data-aos="fade-in">
         <div class="inline-block p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-400 mb-4">
           <i class="fa-solid fa-search text-4xl"></i>
         </div>
@@ -556,6 +557,7 @@ function renderCourses(dict, filter = currentFilter, search = currentSearch) {
   const frag = document.createDocumentFragment();
   list.forEach((c, index) => {
     const card = document.createElement("div");
+    card.setAttribute("role", "listitem");
     card.className = "group relative bg-white dark:bg-gray-800 rounded-[2rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 dark:border-gray-700 flex flex-col h-full";
     card.dataset.aos = "fade-up";
     card.dataset.aosDelay = index * 100;
@@ -1055,25 +1057,37 @@ window.addEventListener("load", () => {
   
   autoFillForm();
 
-  // تشغيل القراءة (AOS) أولاً، ثم الكتابة (إضافة الكلاسات) في الإطار التالي لمنع الـ Forced Reflow
+  // Initialize AOS after first paint / idle time to avoid blocking render and reduce forced reflows
   requestAnimationFrame(() => {
-    if (window.AOS) AOS.init({
-      duration: 700,
-      once: true
-    });
+    $("#heroTitle")?.classList.add("show");
+    $("#heroSub")?.classList.add("show");
+    $("#heroCta")?.classList.add("show");
 
-    requestAnimationFrame(() => {
-      $("#heroTitle")?.classList.add("show");
-      $("#heroSub")?.classList.add("show");
-      $("#heroCta")?.classList.add("show");
-
-      if (preloader) {
-        setTimeout(() => {
-          preloader.classList.add('fade-out');
-        }, 150);
-      }
-    });
+    if (preloader) {
+      setTimeout(() => {
+        preloader.classList.add('fade-out');
+      }, 150);
+    }
   });
+
+  const scheduleAOSInit = () => {
+    const initAOS = () => {
+      if (window.AOS) {
+        AOS.init({
+          duration: 700,
+          once: true
+        });
+      }
+    };
+
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(initAOS, { timeout: 2000 });
+    } else {
+      setTimeout(initAOS, 500);
+    }
+  };
+
+  scheduleAOSInit();
 });
 const mobileBtn = $("#mobileMenuBtn");
 const mobileMenu = $("#mobileMenu");

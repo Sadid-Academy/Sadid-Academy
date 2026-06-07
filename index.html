@@ -49,7 +49,7 @@
   <meta name="twitter:image" content="https://sadidacademy.netlify.app/assets/images/logo.webp" />
   
   <!-- Alternate Language Links -->
-  <link rel="alternate" hreflang="ar" href="https://sadidacademy.netlify.app/?lang=ar" />
+  <link rel="alternate" hreflang="ar" href="https://sadidacademy.netlify.app/" />
   <link rel="alternate" hreflang="en" href="https://sadidacademy.netlify.app/?lang=en" />
   <link rel="alternate" hreflang="es" href="https://sadidacademy.netlify.app/?lang=es" />
   <link rel="alternate" hreflang="fr" href="https://sadidacademy.netlify.app/?lang=fr" />
@@ -80,8 +80,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
   </noscript>
 
-  <link rel="preload" href="tailwind-compiled.css" as="style">
-  <link rel="stylesheet" href="tailwind-compiled.css">
+  <link rel="preload" href="tailwind-compiled.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="tailwind-compiled.css"></noscript>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
@@ -129,7 +129,7 @@
   
 </head>
  <body class="scroll-smooth" id="home-page">
-    <a href="#hero" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-yellow-500 focus:text-black focus:rounded-lg">تخطى إلى المحتوى الرئيسي</a>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[9999] focus:px-4 focus:py-2 focus:bg-yellow-500 focus:text-black focus:rounded-lg">تخطى إلى المحتوى الرئيسي</a>
    <div aria-label="إعلان ترويجي" class="hidden md:block bg-yellow-100 border-b border-yellow-300" id="announceBar" role="region">
    <div class="wrap">
     <div class="flex items-center gap-3">
@@ -363,6 +363,7 @@
     </a>
    </div>
   </nav>
+  <main id="main-content">
   <section id="hero">
    <div class="hero-background" id="particles-js">
    </div>
@@ -920,32 +921,34 @@
                             
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div class="space-y-2">
-                                    <label for="input-name" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="name-label">الاسم</label>
+                                    <label for="input-name" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="name-label">الاسم <span class="text-red-500">*</span></label>
                                     <div class="relative group/input">
-                                        <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors">
+                                        <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors" aria-hidden="true">
                                             <i class="fa-regular fa-user"></i>
                                         </div>
-                                        <input type="text" id="input-name" name="name" autocomplete="name" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition" placeholder="الاسم الكريم" required>
+                                        <input type="text" id="input-name" name="name" autocomplete="name" aria-required="true" aria-describedby="name-hint" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500" placeholder="أدخل اسمك الكامل" required>
                                     </div>
+                                    <span id="name-hint" class="text-xs text-gray-500 dark:text-gray-400">مثال: محمد أحمد علي</span>
                                 </div>
                                 <div class="space-y-2">
-                                    <label for="input-email" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="email-label">البريد الإلكتروني</label>
+                                    <label for="input-email" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="email-label">البريد الإلكتروني <span class="text-red-500">*</span></label>
                                     <div class="relative group/input">
-                                        <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors">
+                                        <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors" aria-hidden="true">
                                             <i class="fa-regular fa-envelope"></i>
                                         </div>
-                                        <input type="email" id="input-email" name="email" autocomplete="email" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition" placeholder="example@mail.com" required>
+                                        <input type="email" id="input-email" name="email" autocomplete="email" aria-required="true" aria-describedby="email-hint" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500" placeholder="أدخل بريدك الإلكتروني" required>
                                     </div>
+                                    <span id="email-hint" class="text-xs text-gray-500 dark:text-gray-400">مثال: example@mail.com</span>
                                 </div>
                             </div>
 
                             <div class="space-y-2">
                                 <label for="input-inquiry" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="inquiry-label">نوع الاستفسار</label>
                                 <div class="relative group/input">
-                                    <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors">
+                                    <div class="absolute inset-y-0 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 flex items-center pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors" aria-hidden="true">
                                         <i class="fa-solid fa-tag"></i>
                                     </div>
-                                    <select id="input-inquiry" name="inquiry_type" class="w-full rtl:pr-11 rtl:pl-12 ltr:pl-11 ltr:pr-12 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition appearance-none cursor-pointer text-gray-600 dark:text-gray-300">
+                                    <select id="input-inquiry" name="inquiry_type" aria-describedby="inquiry-hint" class="w-full rtl:pr-11 rtl:pl-12 ltr:pl-11 ltr:pr-12 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition appearance-none cursor-pointer text-gray-600 dark:text-gray-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500">
                                         <option value="general" data-text="inquiry-general">استفسار عام</option>
                                         <option value="registration" data-text="inquiry-registration">تسجيل في دورة</option>
                                         <option value="complaint" data-text="inquiry-complaint">شكوى أو اقتراح</option>
@@ -954,21 +957,23 @@
                                         <i class="fa-solid fa-chevron-down text-xs"></i>
                                     </div>
                                 </div>
+                                <span id="inquiry-hint" class="text-xs text-gray-500 dark:text-gray-400">اختر نوع الاستفسار</span>
                             </div>
 
                             <div class="space-y-2">
-                                <label for="input-message" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="message-label">الرسالة</label>
+                                <label for="input-message" class="text-sm font-bold text-gray-700 dark:text-gray-300" data-text="message-label">الرسالة <span class="text-red-500">*</span></label>
                                 <div class="relative group/input">
-                                    <div class="absolute top-4 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors">
+                                    <div class="absolute top-4 rtl:right-0 ltr:left-0 rtl:pr-4 ltr:pl-4 pointer-events-none text-gray-400 group-focus-within/input:text-yellow-500 transition-colors" aria-hidden="true">
                                         <i class="fa-regular fa-comment-dots"></i>
                                     </div>
-                                    <textarea id="input-message" name="message" rows="4" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition resize-none" placeholder="اكتب رسالتك هنا..." required></textarea>
+                                    <textarea id="input-message" name="message" rows="4" aria-required="true" aria-describedby="message-hint" class="w-full rtl:pr-11 rtl:pl-4 ltr:pl-11 ltr:pr-4 py-4 rounded-xl focus:ring-4 focus:ring-yellow-500/10 outline-none transition resize-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500" placeholder="اكتب رسالتك هنا (الحد الأدنى 10 أحرف)..." required minlength="10"></textarea>
                                 </div>
+                                <span id="message-hint" class="text-xs text-gray-500 dark:text-gray-400">اكتب رسالتك بتفاصيل واضحة</span>
                             </div>
 
-                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-yellow-500 to-amber-600 text-white font-bold text-lg shadow-lg shadow-yellow-500/30 hover:shadow-yellow-500/50 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 group/btn">
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-yellow-500 to-amber-600 text-white font-bold text-lg shadow-lg shadow-yellow-500/30 hover:shadow-yellow-500/50 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 group/btn focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-500">
                                 <span data-text="contact-btn-new">إرسال الرسالة</span>
-                                <i class="fa-solid fa-paper-plane group-hover/btn:-translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                                <i class="fa-solid fa-paper-plane group-hover/btn:-translate-x-1 group-hover/btn:-translate-y-1 transition-transform" aria-hidden="true"></i>
                             </button>
 
                             <div id="form-success" class="hidden text-center p-4 rounded-xl bg-green-50 text-green-600 text-sm font-bold border border-green-100" data-text="contact_success">
@@ -984,6 +989,7 @@
         </div>
     </div>
   </section>
+  </main>
 
   <a aria-label="WhatsApp" href="https://wa.me/201095499267" id="whatsappFloat" target="_blank" rel="noopener noreferrer">
    <i aria-hidden="true" class="fa-brands fa-whatsapp text-xl">
@@ -1024,7 +1030,7 @@
     </a>
    </div>
   </div>
-  <div aria-modal="true" class="modal-backdrop" id="articleModal" role="dialog">
+  <div aria-modal="true" class="modal-backdrop" id="articleModal" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalBody">
    <div class="modal-card">
     <!-- صورة الغلاف -->
     <div class="modal-hero">
