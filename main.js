@@ -1,16 +1,3 @@
-window.addEventListener("load", () => {
-  const preloader = document.getElementById('preloader');
-  initContactForm();
-  if (preloader) {
-    setTimeout(() => {
-      preloader.classList.add('fade-out');
-    }, 300);
-  }
-
-  if (window.AOS) AOS.init({
-    duration: 700,
-    once: true
-  });
 
 const video = document.getElementById('introVideo');
 const badge = document.getElementById('videoBadge');
