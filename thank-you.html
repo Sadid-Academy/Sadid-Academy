@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title data-text="thank_you_page_title">تم التسجيل بنجاح | أكاديمية سديد</title>
+  
+  <!-- Security Headers -->
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+
+  <link rel="icon" type="image/png" href="assets/images/logo.webp" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+   
+  <link rel="preload" href="tailwind-compiled.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="tailwind-compiled.css"></noscript>
+
+</head>
+
+<body class="bg-slate-50 min-h-screen flex items-center justify-center font-amiri p-4 dir-rtl">
+  
+  <div class="max-w-lg w-full bg-white rounded-[2rem] shadow-2xl p-8 md:p-12 text-center relative overflow-hidden border border-slate-100">
+    <!-- Decorative Background -->
+    <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-green-400 to-emerald-600"></div>
+    <div class="absolute -top-10 -right-10 w-32 h-32 bg-green-50 rounded-full blur-2xl opacity-50 pointer-events-none"></div>
+    <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-yellow-50 rounded-full blur-2xl opacity-50 pointer-events-none"></div>
+
+    <!-- Success Icon -->
+    <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce shadow-lg shadow-green-100">
+      <i class="fa-solid fa-check text-4xl text-green-600"></i>
+    </div>
+
+    <!-- Content -->
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4" data-text="thank_you_heading">     تم إرسال طلبك بنجاح</h1>
+    
+    <div class="text-gray-600 text-lg leading-relaxed mb-8 space-y-2">
+      <p data-text="thank_you_message_1">شكرًا لانضمامك إلى أكاديمية سديد.</p>
+      <p data-text="thank_you_message_2">سيقوم فريقنا بالتواصل معك قريبًا لتأكيد التسجيل.</p>
+    </div>
+
+    <!-- Action Button -->
+    <a href="/" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-green-500/30 hover:shadow-green-500/50 hover:-translate-y-1 transition-all duration-300 w-full md:w-auto">
+      <i class="fa-solid fa-house"></i>
+      <span data-text="thank_you_back_home">العودة إلى الموقع</span>
+    </a>
+
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>
