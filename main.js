@@ -181,7 +181,7 @@ function updateLanguageMetaTags(lang, titleKey, dict, pageKey) {
     ogImage.setAttribute("property", "og:image");
     document.head.appendChild(ogImage);
   }
-  const ogImageUrl = Reflect.get(dict, `og_image_${pageKey}`) || "https://sadidacademy.netlify.app/assets/images/logo.webp";
+  const ogImageUrl = Reflect.get(dict, `og_image_${pageKey}`) || "https://sadid-academy.vercel.app/assets/images/logo.webp";
   ogImage.setAttribute("content", ogImageUrl);
 
   let twitterImage = document.querySelector('meta[name="twitter:image"]');
@@ -1146,9 +1146,9 @@ function initContactForm() {
         data.append(pair[0], pair[1]);
       }
 
-      fetch("/", {
+      fetch(form.action || "https://formspree.io/f/xdaqgejl", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json" },
         body: data.toString(),
       }).then(response => {
         if (!response.ok) throw new Error("Network error");

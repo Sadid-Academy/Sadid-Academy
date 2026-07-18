@@ -13,20 +13,20 @@
   Inscription Académie Sadid, Registro Academia Sadid, Anmeldung Sadid Akademie
   " />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <link rel="canonical" href="https://sadidacademy.netlify.app/enroll" />
+  <link rel="canonical" href="https://sadid-academy.vercel.app/enroll" />
   <meta property="og:locale" content="ar_AR" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:locale:alternate" content="es_ES" />
   <meta property="og:locale:alternate" content="fr_FR" />
   <meta property="og:locale:alternate" content="it_IT" />
   <meta property="og:locale:alternate" content="de_DE" />
-  <link rel="alternate" hreflang="ar" href="https://sadidacademy.netlify.app/enroll" />
-  <link rel="alternate" hreflang="en" href="https://sadidacademy.netlify.app/enroll?lang=en" />
-  <link rel="alternate" hreflang="es" href="https://sadidacademy.netlify.app/enroll?lang=es" />
-  <link rel="alternate" hreflang="fr" href="https://sadidacademy.netlify.app/enroll?lang=fr" />
-  <link rel="alternate" hreflang="it" href="https://sadidacademy.netlify.app/enroll?lang=it" />
-  <link rel="alternate" hreflang="de" href="https://sadidacademy.netlify.app/enroll?lang=de" />
-  <link rel="alternate" hreflang="x-default" href="https://sadidacademy.netlify.app/enroll" />
+  <link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/enroll" />
+  <link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/enroll?lang=en" />
+  <link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/enroll?lang=es" />
+  <link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/enroll?lang=fr" />
+  <link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/enroll?lang=it" />
+  <link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/enroll?lang=de" />
+  <link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/enroll" />
 
   <link rel="icon" type="image/png" href="assets/images/logo.webp" />
   <meta name="theme-color" content="#ffffff">
@@ -259,10 +259,10 @@
 
       <!-- Right Side (Form) -->
       <div class="lg:w-3/5 p-8 lg:p-12 bg-white">
-        <form id="enrollForm" name="enroll" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+        <form id="enrollForm" name="enroll" method="POST" action="https://formspree.io/f/xojgdebo"
           class="space-y-6">
-          <input type="hidden" name="form-name" value="enroll" />
-          <p class="hidden"><label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+          <input type="hidden" name="_subject" value="طلب تسجيل جديد من أكاديمية سديد" />
+          <p class="hidden"><label>Don’t fill this out if you're human: <input name="bot-field" autocomplete="off" /></label></p>
 
           <!-- Name -->
           <div class="group">
@@ -502,12 +502,14 @@
                     <span class="mx-2">جاري الإرسال...</span>
                 `;
 
-          // إرسال البيانات لـ Netlify
-          fetch('/', {
+          // إرسال البيانات لـ Formspree
+          fetch(form.action || 'https://formspree.io/f/xojgdebo', {
             method: 'POST',
+            headers: { 'Accept': 'application/json' },
             body: new FormData(form)
           })
             .then(response => {
+              if (!response.ok) throw new Error('Network error');
               // التوجيه لصفحة الشكر فور النجاح
               window.location.href = '/thank-you';
             })
