@@ -4,3 +4,10 @@
 /course-islamic.html  /course-islamic   301!
 /enroll.html          /enroll           301!
 /thank-you.html       /thank-you        301!
+
+/courses              /courses.html     200
+/course-quran         /course-quran.html 200
+/course-arabic        /course-arabic.html 200
+/course-islamic       /course-islamic.html 200
+/enroll               /enroll.html      200
+/thank-you            /thank-you.html   200
