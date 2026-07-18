@@ -1,19 +1,13 @@
 {
-  "version": 3,
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    { "src": "^/courses/?$", "dest": "/courses.html" },
-    { "src": "^/course-quran/?$", "dest": "/course-quran.html" },
-    { "src": "^/course-arabic/?$", "dest": "/course-arabic.html" },
-    { "src": "^/course-islamic/?$", "dest": "/course-islamic.html" },
-    { "src": "^/enroll/?$", "dest": "/enroll.html" },
-    { "src": "^/thank-you/?$", "dest": "/thank-you.html" },
-    { "src": "^/assets/(.*)$", "dest": "/assets/$1" },
-    { "src": "^/(.*)$", "dest": "/$1" }
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/courses", "destination": "/courses.html" },
+    { "source": "/course-quran", "destination": "/course-quran.html" },
+    { "source": "/course-arabic", "destination": "/course-arabic.html" },
+    { "source": "/course-islamic", "destination": "/course-islamic.html" },
+    { "source": "/enroll", "destination": "/enroll.html" },
+    { "source": "/thank-you", "destination": "/thank-you.html" }
   ]
 }
