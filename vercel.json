@@ -1,0 +1,22 @@
+{
+  "version": 3,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "."
+      }
+    }
+  ],
+  "routes": [
+    { "src": "^/courses/?$", "dest": "/courses.html" },
+    { "src": "^/course-quran/?$", "dest": "/course-quran.html" },
+    { "src": "^/course-arabic/?$", "dest": "/course-arabic.html" },
+    { "src": "^/course-islamic/?$", "dest": "/course-islamic.html" },
+    { "src": "^/enroll/?$", "dest": "/enroll.html" },
+    { "src": "^/thank-you/?$", "dest": "/thank-you.html" },
+    { "src": "^/assets/(.*)$", "dest": "/assets/$1" },
+    { "src": "^/(.*)$", "dest": "/$1" }
+  ]
+}
