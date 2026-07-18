@@ -110,7 +110,7 @@ document.querySelectorAll('link[rel="alternate"][hreflang]').forEach((link) => {
 
 عند تغيير المستخدم اللغة، يتم تحديث URL تلقائياً:
 ```
-مثال: https://sadid-academy.vercel.app/?lang=ar → https://sadid-academy.vercel.app/?lang=en
+مثال: https://sadidacademy.vercel.app/?lang=ar → https://sadidacademy.vercel.app/?lang=en
 ```
 
 ---

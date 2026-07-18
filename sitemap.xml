@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sadid-academy.vercel.app/</loc>
+    <loc>https://sadidacademy.vercel.app/</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/"/>
   </url>
   <url>
-    <loc>https://sadid-academy.vercel.app/courses</loc>
+    <loc>https://sadidacademy.vercel.app/courses</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/courses?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/courses?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/courses?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/courses?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/courses?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/courses?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/courses"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/courses?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/courses?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/courses?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/courses?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/courses?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/courses?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/courses"/>
   </url>
   <url>
-    <loc>https://sadid-academy.vercel.app/course-quran</loc>
+    <loc>https://sadidacademy.vercel.app/course-quran</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/course-quran?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/course-quran?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/course-quran?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/course-quran?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/course-quran?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/course-quran?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/course-quran"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/course-quran?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/course-quran?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/course-quran?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/course-quran?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/course-quran?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/course-quran?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/course-quran"/>
   </url>
   <url>
-    <loc>https://sadid-academy.vercel.app/course-arabic</loc>
+    <loc>https://sadidacademy.vercel.app/course-arabic</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/course-arabic?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/course-arabic?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/course-arabic?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/course-arabic?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/course-arabic?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/course-arabic?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/course-arabic"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/course-arabic?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/course-arabic?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/course-arabic?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/course-arabic?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/course-arabic?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/course-arabic?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/course-arabic"/>
   </url>
   <url>
-    <loc>https://sadid-academy.vercel.app/course-islamic</loc>
+    <loc>https://sadidacademy.vercel.app/course-islamic</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/course-islamic?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/course-islamic?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/course-islamic?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/course-islamic?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/course-islamic?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/course-islamic?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/course-islamic"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/course-islamic?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/course-islamic?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/course-islamic?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/course-islamic?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/course-islamic?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/course-islamic?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/course-islamic"/>
   </url>
   <url>
-    <loc>https://sadid-academy.vercel.app/enroll</loc>
+    <loc>https://sadidacademy.vercel.app/enroll</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://sadid-academy.vercel.app/enroll?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sadid-academy.vercel.app/enroll?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://sadid-academy.vercel.app/enroll?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://sadid-academy.vercel.app/enroll?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://sadid-academy.vercel.app/enroll?lang=it"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://sadid-academy.vercel.app/enroll?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadid-academy.vercel.app/enroll"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://sadidacademy.vercel.app/enroll?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sadidacademy.vercel.app/enroll?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://sadidacademy.vercel.app/enroll?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sadidacademy.vercel.app/enroll?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://sadidacademy.vercel.app/enroll?lang=it"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sadidacademy.vercel.app/enroll?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sadidacademy.vercel.app/enroll"/>
   </url>
 </urlset>

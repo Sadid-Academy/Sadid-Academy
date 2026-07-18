@@ -181,7 +181,7 @@ function updateLanguageMetaTags(lang, titleKey, dict, pageKey) {
     ogImage.setAttribute("property", "og:image");
     document.head.appendChild(ogImage);
   }
-  const ogImageUrl = Reflect.get(dict, `og_image_${pageKey}`) || "https://sadid-academy.vercel.app/assets/images/logo.webp";
+  const ogImageUrl = Reflect.get(dict, `og_image_${pageKey}`) || "https://sadidacademy.vercel.app/assets/images/logo.webp";
   ogImage.setAttribute("content", ogImageUrl);
 
   let twitterImage = document.querySelector('meta[name="twitter:image"]');
